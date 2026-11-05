@@ -1,0 +1,333 @@
+{
+  "business": {
+    "name": "Asian Times",
+    "tagline": "Horological Servicing, Restoration & Precision Repairs",
+    "location": "Lower Parel, Mumbai, Maharashtra, India",
+    "phoneDisplay": "+91 9819451443",
+    "phoneTel": "tel:+919819451443",
+    "whatsappNumber": "919819451443",
+    "whatsappUrl": "https://wa.me/919819451443",
+    "hours": [
+      { "days": "Monday – Saturday", "time": "10:30 AM – 7:30 PM" },
+      { "days": "Sunday", "time": "By Prior Appointment" }
+    ]
+  },
+  "homepageServices": [
+    {
+      "id": "complete-servicing",
+      "number": "01",
+      "title": "Complete Watch Servicing",
+      "shortDescription": "Full movement disassembly, ultrasonic component cleaning, fresh synthetic lubrication, timing calibration, and case resealing.",
+      "image": "assets/images/services/complete-servicing.jpg",
+      "link": "services.html#complete-servicing"
+    },
+    {
+      "id": "mechanical-repairs",
+      "number": "02",
+      "title": "Mechanical Watch Repairs",
+      "shortDescription": "Meticulous diagnostics and restoration for manual-wind and automatic calibres, including escapement, balance, and gear train care.",
+      "image": "assets/images/services/mechanical-servicing.jpg",
+      "link": "repairs.html#mechanical-repairs"
+    },
+    {
+      "id": "quartz-repairs",
+      "number": "03",
+      "title": "Quartz Watch Repairs",
+      "shortDescription": "Electronic circuit testing, coil and stepping motor diagnostics, contact cleaning, and precision quartz timing verification.",
+      "image": "assets/images/services/quartz-servicing.jpg",
+      "link": "repairs.html#quartz-repairs"
+    },
+    {
+      "id": "battery-replacement",
+      "number": "04",
+      "title": "Battery Replacement",
+      "shortDescription": "Safe cell replacement using non-magnetic tools, consumption testing, contact inspection, and careful caseback sealing.",
+      "image": "assets/images/services/battery-replacement.jpg",
+      "link": "services.html#battery-replacement"
+    },
+    {
+      "id": "strap-bracelet",
+      "number": "05",
+      "title": "Strap & Bracelet Services",
+      "shortDescription": "Custom strap fitting, link sizing, spring bar and pin replacement, clasp tension adjustment, and bracelet ultrasonic cleaning.",
+      "image": "assets/images/services/strap-bracelet.jpg",
+      "link": "services.html#strap-bracelet"
+    },
+    {
+      "id": "cleaning-maintenance",
+      "number": "06",
+      "title": "Watch Cleaning & Maintenance",
+      "shortDescription": "Dedicated exterior detailing, ultrasonic case and bracelet bathing, gasket renewal, and preventive horological care.",
+      "image": "assets/images/services/watch-cleaning.jpg",
+      "link": "services.html#watch-cleaning"
+    }
+  ],
+  "detailedServices": [
+    {
+      "id": "complete-servicing",
+      "number": "01",
+      "category": "Full Overhaul",
+      "title": "Complete Watch Servicing",
+      "description": "Over time, fine lubricants within a watch movement age, thicken, or migrate, creating friction across pivots and gear teeth. Our complete watch service begins with the careful uncasing of the movement and separation of the dial and hands. Every component of the calibre is disassembled and cleaned in specialized ultrasonic solutions before being inspected under high magnification.",
+      "secondaryDescription": "During reassembly, worn components are addressed, and multiple grades of horological oils and greases are applied in exact micro-quantities to each friction point. Finally, the movement is regulated across multiple positions and cased with fresh gaskets.",
+      "highlights": [
+        "Complete movement disassembly and ultrasonic chemical bathing",
+        "Micro-lubrication of jewels, pivots, mainspring, and escapement",
+        "Multi-position timing regulation and amplitude assessment",
+        "Case cleaning, gasket inspection, and final quality verification"
+      ],
+      "image": "assets/images/services/complete-servicing.jpg",
+      "enquirySubject": "Complete Watch Servicing"
+    },
+    {
+      "id": "mechanical-servicing",
+      "number": "02",
+      "category": "Traditional Horology",
+      "title": "Mechanical Watch Servicing",
+      "description": "Manual-wind and automatic mechanical watches rely on the delicate harmony of hundreds of interlocking parts—from the mainspring barrel and gear train to the escapement and oscillating balance wheel. Our mechanical servicing honours traditional watchmaking discipline, treating every bridge, screw, and jewel with unhurried precision.",
+      "secondaryDescription": "For automatic movements, we pay particular attention to the reversing wheels, rotor axle, and winding efficiency so the timepiece maintains a dependable power reserve during daily wear.",
+      "highlights": [
+        "Manual-wind and self-winding automatic calibre overhaul",
+        "Mainspring tension, barrel arbor, and winding mechanism care",
+        "Balance wheel poise, hairspring centring, and beat-error correction",
+        "Power reserve and winding efficiency verification"
+      ],
+      "image": "assets/images/services/mechanical-servicing.jpg",
+      "enquirySubject": "Mechanical Watch Servicing"
+    },
+    {
+      "id": "quartz-servicing",
+      "number": "03",
+      "category": "Electronic Precision",
+      "title": "Quartz Watch Servicing",
+      "description": "Modern and vintage quartz watches combine an electronic oscillator with a finely engineered mechanical gear train. Beyond simple battery changes, quartz calibres require periodic servicing to clean dried lubricants from the wheel train that can otherwise increase current draw and shorten battery life.",
+      "secondaryDescription": "We test circuit board resistance, coil continuity, and stepping motor impulse strength while thoroughly servicing the mechanical wheels, setting lever, and keyless works.",
+      "highlights": [
+        "Electronic module consumption and lower-working-voltage diagnostics",
+        "Cleaning and lubrication of the mechanical reduction gear train",
+        "Battery contact remediation and corrosion removal",
+        "Quartz oscillator frequency and accuracy verification"
+      ],
+      "image": "assets/images/services/quartz-servicing.jpg",
+      "enquirySubject": "Quartz Watch Servicing"
+    },
+    {
+      "id": "battery-replacement",
+      "number": "04",
+      "category": "Essential Care",
+      "title": "Battery Replacement",
+      "description": "An improperly changed battery can scratch a caseback, deform a gasket, or leave fingerprints on delicate movement plates. At Asian Times, every battery replacement is performed at the watchmaker's bench using proper case-opening dies, insulated tweezers, and high-grade silver-oxide or lithium cells matched to the movement specification.",
+      "secondaryDescription": "Before closing the watch, we inspect the battery compartment for any signs of past leakage, clean the caseback seating channel, and lubricate the sealing gasket.",
+      "highlights": [
+        "Scratch-free case opening using movement-appropriate dies",
+        "High-grade cell installation with non-magnetic insulated tools",
+        "Current consumption check and contact terminal cleaning",
+        "Caseback gasket dressing and secure resealing"
+      ],
+      "image": "assets/images/services/battery-replacement.jpg",
+      "enquirySubject": "Battery Replacement"
+    },
+    {
+      "id": "strap-bracelet",
+      "number": "05",
+      "category": "Fit & Comfort",
+      "title": "Strap and Bracelet Replacement",
+      "description": "A timepiece should sit balanced and secure on the wrist. Whether you wish to refresh your watch with a new leather strap, swap seasonal bands, or adjust the fit of a metal bracelet, we handle lugs and clasps with protective masking to prevent tool marks.",
+      "secondaryDescription": "We replace fatigued spring bars, tighten worn bracelet screws or friction pins, and perform micro-adjustments at the clasp for effortless everyday comfort.",
+      "highlights": [
+        "Precision link removal, addition, and micro-clasp sizing",
+        "Leather, rubber, and metal strap installation without lug scratches",
+        "Fresh stainless steel spring bars, tubes, and screw-pin replacement",
+        "Clasp closure alignment and deployment mechanism adjustment"
+      ],
+      "image": "assets/images/services/strap-bracelet.jpg",
+      "enquirySubject": "Strap and Bracelet Replacement"
+    },
+    {
+      "id": "watch-cleaning",
+      "number": "06",
+      "category": "Exterior Hygiene",
+      "title": "Watch Cleaning",
+      "description": "Mumbai's humidity, dust, and daily wear naturally accumulate between bracelet links, beneath bezels, and around the caseback. Left unchecked, trapped grit accelerates wear on metal pins and degrades rubber seals.",
+      "secondaryDescription": "We separate the bracelet from the watch head—and, where needed, uncase the movement—so metal components can undergo deep ultrasonic cleaning, steam rinsing, and warm air drying before careful reassembly.",
+      "highlights": [
+        "Ultrasonic cleaning of metal bracelets, clasps, and end-links",
+        "Gentle detailing of case recesses, bezel flutes, and crown guards",
+        "Removal of accumulated moisture, residue, and abrasive dust",
+        "Careful drying and inspection of all exterior fastening points"
+      ],
+      "image": "assets/images/services/watch-cleaning.jpg",
+      "enquirySubject": "Watch Cleaning"
+    },
+    {
+      "id": "water-resistance",
+      "number": "07",
+      "category": "Protection & Seals",
+      "title": "Water Resistance Checks",
+      "description": "Water resistance is not a permanent property of a watch; rubber and synthetic gaskets dry out, flatten, and lose elasticity over time—particularly in warm climates. Checking seals regularly helps protect the dial and movement from moisture intrusion.",
+      "secondaryDescription": "We inspect the caseback gasket, crown seal, and crystal seating, replacing aged O-rings and applying silicone gasket treatment to help preserve your timepiece against everyday moisture exposure.",
+      "highlights": [
+        "Inspection of caseback, crown, pusher, and crystal seals",
+        "Replacement of compressed or degraded rubber O-ring gaskets",
+        "Silicone lubrication of sealing surfaces",
+        "Pressure and condensation risk assessment"
+      ],
+      "image": "assets/images/services/water-resistance.jpg",
+      "enquirySubject": "Water Resistance Checks"
+    },
+    {
+      "id": "watch-polishing",
+      "number": "08",
+      "category": "Case Refinishing",
+      "title": "Watch Polishing",
+      "description": "Refinishing a watch case requires restraint and respect for original geometry. Over-polishing softens crisp lug bevels and alters the character of a timepiece. Our approach focuses on sympathetic surface restoration that revives lustre while preserving case lines.",
+      "secondaryDescription": "We mask distinct textures carefully to maintain the contrast between mirror-polished chamfers and fine satin-brushed surfaces across the case and bracelet.",
+      "highlights": [
+        "Restrained surface refinishing that respects original lug geometry",
+        "Careful separation of mirror-polished and satin-brushed finishes",
+        "Removal of surface swirl marks and light everyday scuffs",
+        "Post-polish ultrasonic bath to remove all polishing compounds"
+      ],
+      "image": "assets/images/services/watch-polishing.jpg",
+      "enquirySubject": "Watch Polishing"
+    },
+    {
+      "id": "general-maintenance",
+      "number": "09",
+      "category": "Preventive Care",
+      "title": "General Maintenance",
+      "description": "Between full movement overhauls, periodic check-ups keep your timepiece performing reliably. If a watch begins running slightly fast or slow, feels stiff when winding, or has suffered an accidental knock, an early inspection prevents minor wear from becoming a major repair.",
+      "secondaryDescription": "We perform demagnetization, timing checks, crown and stem inspections, dial and hand clearance verification, and general preventative adjustments.",
+      "highlights": [
+        "Movement demagnetization and timegrapher rate evaluation",
+        "Crown winding feel, hand-setting, and date-change inspection",
+        "Crystal, bezel, and caseback security check",
+        "Honest guidance on whether immediate servicing is needed"
+      ],
+      "image": "assets/images/services/general-maintenance.jpg",
+      "enquirySubject": "General Maintenance"
+    }
+  ],
+  "repairs": [
+    {
+      "id": "mechanical-repairs",
+      "number": "01",
+      "title": "Mechanical Watch Repairs",
+      "subtitle": "Manual-Wind Calibres & Traditional Movements",
+      "description": "From broken mainsprings and worn barrel teeth to damaged balance staffs and slipped setting levers, we diagnose and rectify mechanical faults with careful component-level attention. Each repair is followed by complete cleaning, lubrication, and positional regulation.",
+      "points": [
+        "Mainspring replacement and barrel arbor alignment",
+        "Gear train pivot and jewel inspection",
+        "Escapement pallet fork and impulse adjustment",
+        "Hairspring truing and beat-error calibration"
+      ],
+      "image": "assets/images/repairs/mechanical-repair.jpg"
+    },
+    {
+      "id": "automatic-repairs",
+      "number": "02",
+      "title": "Automatic Watch Repairs",
+      "subtitle": "Self-Winding Rotors & Power Reserve Systems",
+      "description": "Self-winding watches depend on a finely balanced oscillating weight and delicate reversing wheels. When an automatic watch stops holding its charge or produces rotor noise, we inspect the rotor bearing, axle, reduction gears, and bridal mainspring attachment.",
+      "points": [
+        "Oscillating weight axle and ball-bearing restoration",
+        "Reversing wheel and automatic winding bridge repair",
+        "Slipping-attachment mainspring and barrel wall care",
+        "Bidirectional and unidirectional winding verification"
+      ],
+      "image": "assets/images/repairs/automatic-repair.jpg"
+    },
+    {
+      "id": "quartz-repairs",
+      "number": "03",
+      "title": "Quartz Watch Repairs",
+      "subtitle": "Electronic Modules, Coils & Wheel Trains",
+      "description": "When a quartz watch fails to run even with a fresh battery, the issue often lies in oxidized contacts, a damaged copper coil, a stalled stepping motor rotor, or a fouled mechanical wheel train. We isolate electronic and mechanical faults systematically.",
+      "points": [
+        "Electronic circuit board and coil resistance diagnostics",
+        "Battery leakage neutralization and contact restoration",
+        "Stepping motor stator and magnetic rotor cleaning",
+        "Calendar mechanism and hand-setting train repair"
+      ],
+      "image": "assets/images/repairs/quartz-repair.jpg"
+    },
+    {
+      "id": "movement-inspection",
+      "number": "04",
+      "title": "Watch Movement Inspection",
+      "subtitle": "Microscopic Assessment & Timegrapher Diagnostics",
+      "description": "Every dependable repair begins with an accurate diagnosis. We examine the movement under magnification to check lubricant condition, end-shake, side-shake, jewel integrity, and acoustic timing metrics including rate, amplitude, and beat error.",
+      "points": [
+        "Acoustic timing analysis across multiple dial and crown positions",
+        "Visual inspection of jewel bearings, pivots, and screw slots",
+        "Detection of magnetization, moisture ingress, or impact damage",
+        "Clear, transparent explanation of findings before work begins"
+      ],
+      "image": "assets/images/repairs/movement-inspection.jpg"
+    },
+    {
+      "id": "crown-stem-repairs",
+      "number": "05",
+      "title": "Crown and Stem Repairs",
+      "subtitle": "Winding, Setting & Case Tube Integrity",
+      "description": "As the primary mechanical interface between wearer and movement, the crown and winding stem endure constant stress. We repair stripped screw-down threads, bent or rusted winding stems, loose crowns, and worn keyless works components.",
+      "points": [
+        "Winding stem replacement and precision length trimming",
+        "Crown gasket and case tube thread restoration",
+        "Keyless works—yoke, setting lever, and clutch wheel—repair",
+        "Smooth winding and crisp hand-setting engagement"
+      ],
+      "image": "assets/images/repairs/crown-stem.jpg"
+    },
+    {
+      "id": "bracelet-clasp-repairs",
+      "number": "06",
+      "title": "Bracelet and Clasp Repairs",
+      "subtitle": "Structural Security & Deployment Mechanisms",
+      "description": "A worn clasp or stretched bracelet pin puts the entire timepiece at risk of an accidental drop. We restore secure closure to folding clasps, butterfly deployants, safety catches, end-links, and worn link pins.",
+      "points": [
+        "Folding clasp tension adjustment and latch alignment",
+        "Replacement of worn friction pins, sleeves, and link screws",
+        "End-link seating and spring bar socket inspection",
+        "Push-button release and safety lock restoration"
+      ],
+      "image": "assets/images/repairs/bracelet-clasp.jpg"
+    },
+    {
+      "id": "general-diagnostics",
+      "number": "07",
+      "title": "General Diagnostics",
+      "subtitle": "Comprehensive Fault Finding & Horological Advice",
+      "description": "Whether your timepiece has stopped unexpectedly, suffered a drop, developed condensation beneath the crystal, or exhibits misaligned hands and date wheels, our diagnostic evaluation identifies the root cause and outlines a practical path forward.",
+      "points": [
+        "Root-cause analysis for sudden stoppage or erratic timekeeping",
+        "Dial feet, hand tension, and calendar disc alignment checks",
+        "Condensation and moisture damage triage",
+        "No-obligation consultation at our Lower Parel studio"
+      ],
+      "image": "assets/images/repairs/diagnostics.jpg"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How often should a watch be serviced?",
+      "answer": "Most mechanical watches benefit from a complete inspection and service every few years, depending on how frequently the timepiece is worn and the climate conditions it encounters. Even if a watch appears to keep reasonable time, internal lubricants gradually dry out over time. For quartz watches, we recommend having the seals and movement checked whenever the battery is replaced, or sooner if you notice moisture or inconsistent timekeeping."
+    },
+    {
+      "question": "Do you service automatic watches?",
+      "answer": "Yes. We service both manual-wind and self-winding (automatic) mechanical watches. Our care for automatic calibres includes complete disassembly of the movement and the automatic winding module, cleaning of the rotor bearing and reversing wheels, fresh micro-lubrication, and verification that the self-winding mechanism builds power smoothly."
+    },
+    {
+      "question": "Can I enquire about a specific watch repair?",
+      "answer": "Certainly. Whether your watch has a loose crown, a broken strap or clasp, a stalled movement, misaligned hands, or simply needs a routine battery change, you can send us details via our contact form or directly on WhatsApp at +91 9819451443. Sharing the watch brand and the issue you are experiencing helps us guide you before you visit."
+    },
+    {
+      "question": "How do I request a service?",
+      "answer": "You can initiate an enquiry using the online form on our Contact page—which formats your watch details directly into a WhatsApp message—or reach us directly at +91 9819451443 to arrange a visit to our location in Lower Parel, Mumbai. Once we inspect your timepiece in person, we explain the recommended work clearly before proceeding."
+    },
+    {
+      "question": "How long does servicing take?",
+      "answer": "The time required depends on the nature of the work. Simple procedures such as battery replacements or strap adjustments are much quicker than a complete mechanical movement overhaul, which involves disassembly, cleaning, lubrication, and multi-day timing observation. After inspecting your watch, we provide a realistic timeframe tailored to the specific service required."
+    }
+  ]
+}

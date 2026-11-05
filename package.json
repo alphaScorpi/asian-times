@@ -1,0 +1,26 @@
+{
+  "name": "asian-times-website",
+  "version": "1.0.0",
+  "description": "Premium five-page website for Asian Times — Watch Servicing, Restoration & Repairs in Lower Parel, Mumbai.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3000 --open",
+    "start": "npx serve . -l 3000",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "keywords": [
+    "watch-servicing",
+    "watch-repair",
+    "horology",
+    "lower-parel",
+    "mumbai",
+    "asian-times"
+  ],
+  "author": "Asian Times, Lower Parel, Mumbai",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}

@@ -1,0 +1,252 @@
+/* ==========================================================================
+   ASIAN TIMES — WATCH SERVICING & REPAIR ATELIER (LOWER PAREL, MUMBAI)
+   File: css/responsive.css
+   Purpose: Multi-breakpoint responsive design across Large Desktop, Laptop,
+            Tablet, Mobile, and Small Mobile screens
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. Large Desktop Screens (1440px and above)
+   -------------------------------------------------------------------------- */
+@media (min-width: 1440px) {
+  :root {
+    --container-max: 1420px;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   2. Standard Laptops & Compact Desktops (max-width: 1200px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 1200px) {
+  .header-phone {
+    display: none;
+  }
+
+  .services-matrix {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .pillars-list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .pillar-item:nth-child(3) {
+    border-right: none;
+  }
+
+  .pillar-item:nth-child(4),
+  .pillar-item:nth-child(5) {
+    border-top: 1px solid var(--border);
+  }
+
+  .timeline {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    row-gap: 2.5rem;
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* --------------------------------------------------------------------------
+   3. Tablets & Portrait iPads (max-width: 992px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 992px) {
+  :root {
+    --header-height: 76px;
+  }
+
+  .primary-nav,
+  .header-actions .btn {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: inline-flex;
+  }
+
+  .hero {
+    min-height: auto;
+    padding-top: calc(var(--header-height) + 2.25rem);
+  }
+
+  .hero__grid,
+  .page-hero__grid,
+  .grid-2,
+  .grid-2--asymmetric,
+  .grid-2--reverse,
+  .craft-grid,
+  .section-header--split,
+  .location-card,
+  .contact-layout {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .grid-2--reverse .editorial-media {
+    order: -1;
+  }
+
+  .location-card__map {
+    border-left: none;
+    border-top: 1px solid var(--border);
+    min-height: 360px;
+  }
+
+  .grid-3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  /* Editorial Gallery Tablet Adaptation */
+  .gallery-item--1 { grid-column: 1 / 13; }
+  .gallery-item--2 { grid-column: 1 / 7; margin-top: 0; }
+  .gallery-item--3 { grid-column: 7 / 13; }
+  .gallery-item--4 { grid-column: 1 / 7; margin-top: 0; }
+  .gallery-item--5 { grid-column: 7 / 13; }
+
+  /* Convert Horizontal Timeline to Clean Vertical Timeline on Tablet/Mobile */
+  .timeline {
+    grid-template-columns: 1fr;
+    border-top: none;
+    border-left: 1px solid var(--border);
+    padding-top: 0;
+    padding-left: 1.75rem;
+    margin-left: 0.5rem;
+    gap: 2.25rem;
+  }
+
+  .timeline-step::before {
+    display: none;
+  }
+
+  .timeline-step__marker {
+    margin-bottom: 0.5rem;
+  }
+
+  .timeline-step__dot {
+    position: absolute;
+    left: calc(-1.75rem - 5.5px);
+    top: 0.35rem;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   4. Mobile Phones (max-width: 767px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 767px) {
+  /* Ensure zero horizontal overflow on mobile */
+  .hero__grid > *,
+  .page-hero__grid > *,
+  .grid-2 > *,
+  .grid-2--asymmetric > *,
+  .grid-2--reverse > *,
+  .craft-grid > *,
+  .section-header--split > *,
+  .location-card > *,
+  .contact-layout > *,
+  .form-grid > *,
+  .services-matrix > *,
+  .footer-grid > * {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .btn {
+    white-space: normal;
+    text-align: center;
+    line-height: 1.4;
+  }
+
+  :root {
+    --header-height: 68px;
+  }
+
+  .site-header.is-scrolled {
+    height: 64px;
+  }
+
+  .hero__actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero__actions .btn {
+    width: 100%;
+  }
+
+  .hero__meta {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .services-matrix,
+  .grid-3,
+  .craft-pillars,
+  .pillars-list,
+  .form-grid,
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pillar-item {
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+    padding: 1.75rem 0;
+  }
+
+  .pillar-item:last-child {
+    border-bottom: none;
+  }
+
+  .pillars-list {
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .gallery-item--1,
+  .gallery-item--2,
+  .gallery-item--3,
+  .gallery-item--4,
+  .gallery-item--5 {
+    grid-column: 1 / -1;
+    margin-top: 0;
+  }
+
+  .faq-trigger {
+    padding: 1.35rem 0;
+    gap: 1rem;
+  }
+
+  .enquiry-form-card {
+    padding: 1.5rem;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   5. Small Mobile Screens (max-width: 400px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 400px) {
+  :root {
+    --container-pad: 1rem;
+    --fs-display: 2.15rem;
+    --fs-h1: 1.95rem;
+    --fs-h2: 1.65rem;
+  }
+
+  .btn {
+    padding: 0.95rem 1.25rem;
+    font-size: 0.72rem;
+    letter-spacing: 0.14em;
+  }
+
+  .brand-logo__wordmark {
+    font-size: 1.2rem;
+    letter-spacing: 0.12em;
+  }
+}
